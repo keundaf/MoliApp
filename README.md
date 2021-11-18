@@ -1,2 +1,3 @@
 # itgoesbrrrrrrrrrr
-de verdad, hace ese ruido: brrrrrrrr
+eh velda!, hace ese ruido: brrrrrrrr
+poliapp.py hace la magia
