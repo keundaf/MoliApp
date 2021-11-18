@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Molino</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>661</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Carga de molino</string>
+    </attribute>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>181</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Diametro interior de molino (m)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>191</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Distancia entre tromel y carga (m)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>50</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>7.06</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>80</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>110</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>180</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>180</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>% de carga del molino</string>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_2">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>50</y>
+       <width>256</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>240</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>80</y>
+       <width>171</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Diametro de Trommel (m)</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>140</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.39</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>191</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Distancia entre techo y carga (m)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tonelaje de bolas</string>
+    </attribute>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>221</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Maximo tamañp de bola (3 in)</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>221</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Siguente tamañp de bola (2.5 in)</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>221</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Siguiente tamañp de bola (1.5 in)</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>221</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>minimo tamañp de bola (1 in)</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>221</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Siguente tamañp de bola (2 in)</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>221</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tamaños disponibles de la empresa</string>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>40</y>
+       <width>256</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>260</y>
+       <width>120</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>30</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_3">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>60</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_4">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>90</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_5">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>120</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_6">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>150</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>300</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Diametro Molino (m)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>320</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Largo Molino (m)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>300</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>6.5</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>320</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10.5</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>270</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>% de carga en Molino</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_7">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>270</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>34</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>200</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Total (ton)</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_7">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>190</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
