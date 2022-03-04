@@ -1,3 +1,4 @@
-# itgoes:brrrrrrrrrr
+# MoliApp
+Aplicación para calculo de algunos datos de interes para molinos de bola.
 
-# moliapp.py hace la magia
+# ejecutar MoliApp_v1.py desde IDE
