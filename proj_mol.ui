@@ -36,7 +36,7 @@
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>50</y>
+       <y>80</y>
        <width>181</width>
        <height>16</height>
       </rect>
@@ -45,33 +45,7 @@
       <string>Diametro interior de molino (m)</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>110</y>
-       <width>191</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Distancia entre tromel y carga (m)</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="lineEdit">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>50</y>
-       <width>113</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>7.06</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
      <property name="geometry">
       <rect>
        <x>210</x>
@@ -80,27 +54,8 @@
        <height>20</height>
       </rect>
      </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_3">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>110</y>
-       <width>113</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="inputMask">
-      <string/>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-     <property name="placeholderText">
-      <string/>
+     <property name="text">
+      <string>7.06</string>
      </property>
     </widget>
     <widget class="QTextBrowser" name="textBrowser">
@@ -129,16 +84,6 @@
       <string>% de carga del molino</string>
      </property>
     </widget>
-    <widget class="QGraphicsView" name="graphicsView_2">
-     <property name="geometry">
-      <rect>
-       <x>390</x>
-       <y>50</y>
-       <width>256</width>
-       <height>192</height>
-      </rect>
-     </property>
-    </widget>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
@@ -159,30 +104,11 @@
       <string>Calcular</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox_6">
-     <property name="geometry">
-      <rect>
-       <x>40</x>
-       <y>80</y>
-       <width>171</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Diametro de Trommel (m)</string>
-     </property>
-     <property name="checkable">
-      <bool>false</bool>
-     </property>
-     <property name="checked">
-      <bool>false</bool>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="lineEdit_4">
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>140</y>
+       <y>130</y>
        <width>113</width>
        <height>20</height>
       </rect>
@@ -195,13 +121,32 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>140</y>
+       <y>130</y>
        <width>191</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
       <string>Distancia entre techo y carga (m)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>40</y>
+       <width>251</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Molino.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>
@@ -219,7 +164,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Maximo tamañp de bola (3 in)</string>
+      <string>Maximo tamaño de bola (3 in)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -235,7 +180,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Siguente tamañp de bola (2.5 in)</string>
+      <string>Siguente tamaño de bola (2.5 in)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -251,7 +196,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Siguiente tamañp de bola (1.5 in)</string>
+      <string>Siguiente tamaño de bola (1.5 in)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -267,7 +212,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>minimo tamañp de bola (1 in)</string>
+      <string>Minimo tamaño de bola (1 in)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -283,7 +228,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Siguente tamañp de bola (2 in)</string>
+      <string>Siguente tamaño de bola (2 in)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -300,16 +245,6 @@
      </property>
      <property name="text">
       <string>Tamaños disponibles de la empresa</string>
-     </property>
-    </widget>
-    <widget class="QGraphicsView" name="graphicsView">
-     <property name="geometry">
-      <rect>
-       <x>370</x>
-       <y>40</y>
-       <width>256</width>
-       <height>192</height>
-      </rect>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_2">
@@ -416,7 +351,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>6.5</string>
+      <string>7.06</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>
@@ -490,6 +425,25 @@
        <width>91</width>
        <height>41</height>
       </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>10</y>
+       <width>211</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>porcentaje_bolas.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>
