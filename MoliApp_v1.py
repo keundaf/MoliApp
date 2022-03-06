@@ -7,7 +7,6 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
-from ast import arg
 from matplotlib import pyplot as plt
 import numpy as np
 
@@ -244,7 +243,7 @@ class Ui_Form(object):
         self.textBrowser_6.setText(str(Porcentaje_Retenido_newList[4]/100*m_b)[:8])
 
         Db=['D= 3[in]','D= 2.5[in]','D= 2[in]','D= 1.5[in]','D= 1[in]']
-        fig = plt.figure(figsize =(7,7))
+        fig = plt.figure(figsize =(4,4))
         patches, text = plt.pie(Porcentaje_Retenido_newList, startangle=90)
         plt.legend(patches, Db, loc="best")
         plt.axis('equal')
